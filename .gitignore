@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+*.egg-info/
+
+# Node
+node_modules/
+.next/
+
+# IDE / Editor
+.claude/settings.local.json
+.vscode/
+.idea/
+
+# Data / Model artifacts
+*.npz
+*.joblib
+*.pkl
+*.h5
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
