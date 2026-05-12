@@ -1,0 +1,322 @@
+out_of_scope_plastics tail=BAA09321.1 plastics=PVA
+out_of_scope_plastics tail=BAA76305.1 plastics=PU
+out_of_scope_plastics tail=NA plastics=PU
+out_of_scope_plastics tail=AAD22743.1 plastics=PU
+out_of_scope_plastics tail=BAA94192.1 plastics=O-PVA
+out_of_scope_plastics tail=AAF01331.1 plastics=PU
+no_accession plastics=P(3HB-co-3MP)_PHA enzyme=PHA_depolymerase
+out_of_scope_plastics tail=BAF98451.1 plastics=PEG
+out_of_scope_plastics tail=BAD95542.3 plastics=PVA_O-PVA
+no_accession plastics=PBS_PBSA enzyme=Cutinase
+out_of_scope_plastics tail=BAF98449.1 plastics=PEG
+out_of_scope_plastics tail=ABM54447.1 plastics=PU
+out_of_scope_plastics tail=BAE97629.1 plastics=Nylon
+out_of_scope_plastics tail=BAE97621.1 plastics=Nylon
+out_of_scope_plastics tail=BAE97630.1 plastics=Nylon
+out_of_scope_plastics tail=BAE97622.2 plastics=Nylon
+out_of_scope_plastics tail=ABM54446.1 plastics=PU
+no_accession plastics=PBSA enzyme=Lipase
+no_accession plastics=PBSA enzyme=Lipase
+out_of_scope_plastics tail=NA plastics=PE
+no_accession plastics=PHA enzyme=MCL_PHA_depolymerase
+out_of_scope_plastics tail=P13397 plastics=Nylon
+no_accession plastics=PHB_PHA enzyme=PHB_depolymerase
+no_accession plastics=PBS-Blend_PBSA-Blend enzyme=Cutinase
+no_accession plastics=PCL enzyme=Chitinase
+no_accession plastics=PHB_PHA enzyme=3HB_oligomer_hydrolase
+no_accession plastics=P3HV_PHBV_PHA enzyme=3HV_dehydrogenase
+no_accession plastics=PET enzyme=Cutinase
+no_accession plastics=PBAT_PBS_PBSA_PCL_PET_PHB_PLA_PHA enzyme=Cutinase
+out_of_scope_plastics tail=WP_011061486.1 plastics=PU
+out_of_scope_plastics tail=WP_011061489.1 plastics=PU
+out_of_scope_plastics tail=1AGY plastics=PMCL
+out_of_scope_plastics tail=AOA73724.1 plastics=PVA
+out_of_scope_plastics tail=POM09750.1 plastics=PU
+no_accession plastics=PET_PEF enzyme=PETase
+no_accession plastics=PBS_PCL_PES_PHB_PLA_PHA enzyme=Esterase
+out_of_scope_plastics tail=AYO90679.1 plastics=LDPE
+out_of_scope_plastics tail=WP_088276085.1 plastics=PET_PU
+out_of_scope_plastics tail=AZN65426.1 plastics=PS
+out_of_scope_plastics tail=Q3L8N0 plastics=NR
+out_of_scope_plastics tail=Q7X0P3 plastics=NR
+out_of_scope_plastics tail=A0A1S6Q8F9 plastics=NR
+out_of_scope_plastics tail=BAS44780.1 plastics=NR
+out_of_scope_plastics tail=P19833 plastics=PET_PCL_PU_PHB_PBS_PLA_PHA
+out_of_scope_plastics tail=AAF66684.1 plastics=PU
+out_of_scope_plastics tail=WP_111881932.1 plastics=PET_PU_PCL
+out_of_scope_plastics tail=WP_039353427.1 plastics=PET_PU_PCL
+out_of_scope_plastics tail=WP_073216622.1 plastics=PU_PCL
+out_of_scope_plastics tail=WP_052671284.1 plastics=PU_PCL
+out_of_scope_plastics tail=P13398 plastics=Nylon
+out_of_scope_plastics tail=P07061 plastics=Nylon
+out_of_scope_plastics tail=Q79F77 plastics=Nylon
+out_of_scope_plastics tail=Q1EPR4 plastics=Nylon
+out_of_scope_plastics tail=WP_011209364.1 plastics=Nylon
+out_of_scope_plastics tail=NA plastics=LDPE
+no_accession plastics=PET enzyme=Hydrolase
+out_of_scope_plastics tail=UVG67878.1 plastics=PE
+no_accession plastics=PET enzyme=PETase
+no_accession plastics=PET enzyme=PETase
+no_accession plastics=PET enzyme=PETase
+no_accession plastics=PET enzyme=PETase
+no_accession plastics=PET enzyme=PETase
+no_accession plastics=PET enzyme=PETase
+no_accession plastics=PET enzyme=PETase
+no_accession plastics=PET enzyme=PETase
+no_accession plastics=PET enzyme=PETase
+no_accession plastics=PET enzyme=PETase
+no_accession plastics=PET enzyme=PETase
+no_accession plastics=PET enzyme=PETase
+no_accession plastics=PET enzyme=PETase
+no_accession plastics=PET enzyme=PETase
+no_accession plastics=PET enzyme=PETase
+no_accession plastics=PET enzyme=PETase
+no_accession plastics=PET enzyme=PETase
+no_accession plastics=PET enzyme=PETase
+no_accession plastics=PET enzyme=PETase
+no_accession plastics=PET enzyme=PETase
+no_accession plastics=PET enzyme=PETase
+no_accession plastics=PET enzyme=PETase
+no_accession plastics=PET enzyme=PETase
+no_accession plastics=PET enzyme=PETase
+out_of_scope_plastics tail=UOM43036.1 plastics=PU_PBAT
+out_of_scope_plastics tail=AAP57213 plastics=LDPE
+out_of_scope_plastics tail=AII11185.1 plastics=PE
+out_of_scope_plastics tail=AII11221 plastics=PE
+out_of_scope_plastics tail=WP_090538641.1 plastics=PU
+out_of_scope_plastics tail=WAU86704 plastics=PCL_PET_PU
+no_accession plastics=PCL_PET enzyme=PETase
+no_accession plastics=PCL enzyme=PETase
+embl_unmapped tail=BAA04986.1
+embl_unmapped tail=AAA64538.1
+embl_unmapped tail=AAA65705.1
+refseq_unmapped tail=WP_132258119.1
+embl_unmapped tail=AAB17150.1
+embl_unmapped tail=BAA19791.1
+embl_unmapped tail=AAB40611.1
+embl_unmapped tail=BAA35137.1
+embl_unmapped tail=BAA19791.1
+embl_unmapped tail=BAA22882.1
+embl_unmapped tail=BAA32541.1
+embl_unmapped tail=AAA21974.1
+embl_unmapped tail=BAG32152.1
+embl_unmapped tail=BAB86909.1
+embl_unmapped tail=BAA92354.1
+embl_unmapped tail=BAC15574.1
+embl_unmapped tail=BAC67195.1
+embl_unmapped tail=AAQ05770.1
+embl_unmapped tail=AAT09963.1
+embl_unmapped tail=AAT09963.1
+embl_unmapped tail=AAQ72538.1
+embl_unmapped tail=BAC67242.1
+embl_unmapped tail=CAJ96855.1
+embl_unmapped tail=BAF35850.1
+already_in_pazy acc=P06873 tail=P06873
+embl_unmapped tail=BAF57213.1
+embl_unmapped tail=BAF57214.1
+embl_unmapped tail=BAF57210.1
+embl_unmapped tail=BAF57211.1
+embl_unmapped tail=3GBS_A
+embl_unmapped tail=ACI48814.2
+embl_unmapped tail=BAI99230.2
+embl_unmapped tail=BAK48590.1
+embl_unmapped tail=ADV92528.1
+embl_unmapped tail=ADV92527.1
+embl_unmapped tail=ADV92526.1
+embl_unmapped tail=ABC22769.1
+embl_unmapped tail=AEV21261.1
+already_in_pazy acc=Q939Q9 tail=Q939Q9
+embl_unmapped tail=AEZ06355.1
+embl_unmapped tail=EAO52570.1
+embl_unmapped tail=BAO42836.1
+embl_unmapped tail=5AJH_A
+embl_unmapped tail=AKZ20828.1
+embl_unmapped tail=AKZ20829.1
+embl_unmapped tail=EFC94627.1
+embl_unmapped tail=EIW29778.1
+already_in_pazy acc=A0A0K8P6T7 tail=A0A0K8P6T7
+embl_unmapped tail=AOR05752.1
+embl_unmapped tail=AOR05751.1
+embl_unmapped tail=AMW89397.1
+embl_unmapped tail=AOR05753.1
+embl_unmapped tail=AOR05749.1
+embl_unmapped tail=AOR05750.1
+embl_unmapped tail=AOR05748.1
+embl_unmapped tail=ASA57064.1
+embl_unmapped tail=CCK74972.1
+embl_unmapped tail=ACC95208.1
+embl_unmapped tail=AKJ29164.1
+embl_unmapped tail=DAC80635.1
+embl_unmapped tail=BBB03504.1
+embl_unmapped tail=CBY05530.1
+embl_unmapped tail=ADV92525.1
+embl_unmapped tail=AFA45122.1
+embl_unmapped tail=AKJ29164.1
+embl_unmapped tail=ACY96861.1
+embl_unmapped tail=KFJ10595.1
+embl_unmapped tail=KTB31184.1
+embl_unmapped tail=ADK73612.1
+embl_unmapped tail=ANP21910.1
+embl_unmapped tail=2FX5_A
+already_in_pazy acc=A0A075B5G4 tail=A0A075B5G4
+embl_unmapped tail=AAA33335.1
+already_in_pazy acc=P41365 tail=P41365
+embl_unmapped tail=GBD22443.1
+already_in_pazy acc=Q6A0I4 tail=Q6A0I4
+embl_unmapped tail=CAH17554.1
+already_in_pazy acc=Q47RJ6 tail=Q47RJ6
+embl_unmapped tail=AET05798.1
+embl_unmapped tail=AET05799.1
+embl_unmapped tail=ADV92526.1
+embl_unmapped tail=ADV92527.1
+embl_unmapped tail=ADH43200.1
+already_in_pazy acc=D1A2H1 tail=D1A2H1
+embl_unmapped tail=7CUV_A
+embl_unmapped tail=7NEI_B
+embl_unmapped tail=LT571440
+embl_unmapped tail=LT571441
+embl_unmapped tail=LT571442
+embl_unmapped tail=LT571443
+embl_unmapped tail=LT571444
+embl_unmapped tail=LT571445
+already_in_pazy acc=B0FLR6 tail=B0FLR6
+already_in_pazy acc=B0FY08 tail=B0FY08
+already_in_pazy acc=Q0VLQ1 tail=Q0VLQ1
+already_in_pazy acc=Q6N9M9 tail=Q6N9M9
+already_in_pazy acc=P29600 tail=P29600
+already_in_pazy acc=P29599 tail=P29599
+already_in_pazy acc=P00780 tail=P00780
+embl_unmapped tail=CAL16645.1
+embl_unmapped tail=AGT96415.1
+embl_unmapped tail=CAL16699.1
+embl_unmapped tail=AHG30919.1
+embl_unmapped tail=AGT96414.1
+embl_unmapped tail=CAJ92291.1
+embl_unmapped tail=CAJ93939.1
+embl_unmapped tail=CAJ95139.1
+embl_unmapped tail=AAP85930.1
+embl_unmapped tail=CAJ95805.1
+embl_unmapped tail=CAJ97183.1
+embl_unmapped tail=CAJ93348.1
+embl_unmapped tail=CAJ92475.1
+already_in_pazy acc=A0ABY3Q520 tail=WP_085690612.1
+embl_unmapped tail=A0A1W6L588_9BURK
+embl_unmapped tail=AAN70570.1
+embl_unmapped tail=A0A7I8E2Z4_RHOSO
+embl_unmapped tail=A0A1E1FNX8_BACPU
+embl_unmapped tail=AIC18917.1
+embl_unmapped tail=AIC19151.1
+embl_unmapped tail=UUT36764.1
+embl_unmapped tail=UUT36763.1
+embl_unmapped tail=EY04_02420
+embl_unmapped tail=EY04_21540
+embl_unmapped tail=EY04_01535
+already_in_pazy acc=P19833 tail=P19833
+already_in_pazy acc=R4YKL9 tail=R4YKL9
+refseq_unmapped tail=WP_089972404.1
+embl_unmapped tail=SJZ42839
+embl_unmapped tail=KFY49210.1
+embl_unmapped tail=KFY57494.1
+embl_unmapped tail=RLI42440.1
+already_in_pazy acc=L0EF70 tail=WP_015255658.1
+embl_unmapped tail=UNZ22463.1
+embl_unmapped tail=DAC80635
+embl_unmapped tail=7NEI_A
+embl_unmapped tail=MBX3624429.1
+embl_unmapped tail=MBX3624429.1
+already_in_pazy acc=A0A7X0EU44 tail=WP_184682765.1
+embl_unmapped tail=MBX3621832.1
+refseq_unmapped tail=WP_252275389.1
+embl_unmapped tail=MBT9528079.1
+already_in_pazy acc=A0A1I4Q7B4 tail=WP_093473685.1
+embl_unmapped tail=ACV09511
+embl_unmapped tail=TDP67440.1
+already_in_pazy acc=W7IW76 tail=WP_035284691
+already_in_pazy acc=A0A4Q7L5W5 tail=WP_130342639
+already_in_pazy acc=A0A6I4MG66 tail=WP_151597653.1
+already_in_pazy acc=A0ABR7LG92 tail=WP_187224800.1
+embl_unmapped tail=MBT8227529.1
+already_in_pazy acc=W7J542 tail=WP_233427406.1
+refseq_unmapped tail=WP_229068674.1
+already_in_pazy acc=A0A6I4W9J4 tail=WP_161104454.1
+embl_unmapped tail=MGYP001489421514
+embl_unmapped tail=MBN2622270.1
+embl_unmapped tail=MGYP001121581011
+refseq_unmapped tail=WP_221382552.1
+embl_unmapped tail=MGYP000271253724
+embl_unmapped tail=MBJ7347705.1
+embl_unmapped tail=MGYP000221121644
+already_in_pazy acc=A0ABQ3Z6H3 tail=WP_203733135.1
+embl_unmapped tail=NUT34383.1
+refseq_unmapped tail=WP_129786244.1
+refseq_unmapped tail=WP_233872418.1
+already_in_pazy acc=A0A5N6AZJ9 tail=WP_139580723.1
+refseq_unmapped tail=WP_267938240.1
+refseq_unmapped tail=WP_167521412.1
+embl_unmapped tail=WBC00352.1
+already_in_pazy acc=A0A941ALA2 tail=WP_210157342.1
+embl_unmapped tail=MBO4274871.1
+refseq_unmapped tail=WP_232326807.1
+embl_unmapped tail=GFJ87714.1
+refseq_unmapped tail=WP_158852571.1
+refseq_unmapped tail=WP_182904095.1
+refseq_unmapped tail=WP_031525917.1
+embl_unmapped tail=GIU85367.1
+refseq_unmapped tail=WP_203777396.1
+already_in_pazy acc=A0A6V8KDL4 tail=WP_173061649.1
+refseq_unmapped tail=WP_111214096.1
+refseq_unmapped tail=WP_203790592.1
+embl_unmapped tail=MBF9135495.1
+embl_unmapped tail=TWG17167.1
+embl_unmapped tail=GLI01021.1
+refseq_unmapped tail=WP_204038550.1
+refseq_unmapped tail=WP_181548579.1
+embl_unmapped tail=GHJ08786.1
+already_in_pazy acc=A0A1C5JVZ6 tail=WP_084261341.1
+refseq_unmapped tail=WP_265247586.1
+embl_unmapped tail=UAC02078.1
+refseq_unmapped tail=WP_252811421.1
+already_in_pazy acc=A0A917UAD8 tail=WP_229836555.1
+already_in_pazy acc=A0A919PGK4 tail=WP_239135698.1
+refseq_unmapped tail=WP_271190254.1
+embl_unmapped tail=MBW4703769.1
+refseq_unmapped tail=WP_247684544.1
+refseq_unmapped tail=WP_269740835.1
+embl_unmapped tail=MCF0091346.1
+embl_unmapped tail=GGR16917.1
+refseq_unmapped tail=WP_199199185.1
+refseq_unmapped tail=WP_247056560.1
+already_in_pazy acc=A0A8J3NIL5 tail=WP_239125827.1
+already_in_pazy acc=A0A919NVN0 tail=WP_203812622.1
+embl_unmapped tail=PWR09075.1
+already_in_pazy acc=A0A8J3Q2S4 tail=WP_203906211.1
+already_in_pazy acc=A0A239PER3 tail=WP_144022925.1
+already_in_pazy acc=A0A1H5ATK4 tail=WP_091317053.1
+embl_unmapped tail=MTK05241.1
+already_in_pazy acc=A0A8J3LA20 tail=WP_239086781.1
+refseq_unmapped tail=WP_164449727.1
+embl_unmapped tail=MGYP001477358452
+refseq_unmapped tail=WP_264933993.1
+embl_unmapped tail=MGYP000321434903
+refseq_unmapped tail=WP_256510026.1
+refseq_unmapped tail=WP_260709492.1
+embl_unmapped tail=GGO06455.1
+refseq_unmapped tail=WP_149259982.1
+embl_unmapped tail=MBN1171866.1
+embl_unmapped tail=MBO9569276.1
+embl_unmapped tail=GIG90696.1
+already_in_pazy acc=A0A243SAH7 tail=WP_086599340.1
+refseq_unmapped tail=WP_019633337.1
+refseq_unmapped tail=WP_109361459.1
+refseq_unmapped tail=WP_211769896.1
+already_in_pazy acc=A0A5M7BCA1 tail=WP_150070118.1
+embl_unmapped tail=MBP2328848.1
+refseq_unmapped tail=WP_260422593.1
+refseq_unmapped tail=WP_252811421.1
+refseq_unmapped tail=WP_218517662.1
+refseq_unmapped tail=WP_256510519.1
+refseq_unmapped tail=WP_233604767.1
+refseq_unmapped tail=WP_239095870.1
+already_in_pazy acc=A0ABV8LVF2 tail=WP_253762837.1
+embl_unmapped tail=GIU85371.1
+refseq_unmapped tail=WP_250563816.1

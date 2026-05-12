@@ -1,0 +1,28 @@
+
+Paper 3 Analysis: ML for Plastic-Degrading Enzyme Prediction
+
+Overview:
+The research focus is using deep learning to address plastic pollution by identifying microbial enzymes from bacteria and fungi that can degrade synthetic polymers.
+The goal is to leverage protein language models and CNNs to screen amino acid sequences for "degrading potential" much faster than traditional wet-lab testing.
+
+
+Current Limitations:
+
+1.Accuracy vs. Diversity: Prediction accuracy tends to drop significantly as the pairwise sequence identity and diversity of protein sequences increase.
+
+2.Resource Intensity: State-of-the-art architectures, such as TResNet or EfficientNet, require very high GPU resources for both training and inference.  
+
+3.Performance Gap: There is a notable gap between genomic database predictions and how enzymes actually perform in messy, real-world environments 
+  like soil or anaerobic conditions
+
+
+Proposed Enhancements:
+
+1.Architecture: Combine ProtBert-encoded features with Bi-LSTM layers. This helps the model capture local biochemical structures as well as long-range
+  sequence context for more reliable classification.
+
+2.Fine-Tuning: Implement Parameter-Efficient Fine-Tuning (PEFT) to specialize the model for specific plastic types, such as PET or PLA, 
+  without the need for full retraining.
+
+3.Metadata Integration: Incorporate global microbiome metadata to refine screening filters. Identifying where these microbes naturally thrive helps
+  predict which enzymes will remain functional under specific environmental conditions.  

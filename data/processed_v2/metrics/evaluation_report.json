@@ -1,0 +1,122 @@
+{
+  "embeddings": "D:\\New folder\\unique-projects\\MINI PROJECT\\data\\processed_v2\\embeddings\\embeddings_esm2_t33_mean_v2.npz",
+  "test_ids_file": "D:\\New folder\\unique-projects\\MINI PROJECT\\data\\processed_v2\\splits\\split_test_accessions.txt",
+  "metrics_source": "D:\\New folder\\unique-projects\\MINI PROJECT\\data\\processed_v2\\metrics\\metrics_esm_baseline.json",
+  "note": "Thresholds are frozen from train (metrics JSON); no tuning on test or probe.",
+  "models": {
+    "logistic_regression": {
+      "name": "logistic_regression",
+      "threshold_frozen_from_train": 0.9998618488403199,
+      "n_test": 315,
+      "pr_auc": 0.9986842105263156,
+      "roc_auc": 0.999809994299829,
+      "accuracy_at_threshold": 0.9650793650793651,
+      "mcc_at_threshold": 0.8266729449393737,
+      "precision_at_threshold": 1.0,
+      "recall_at_threshold": 0.7105263157894737,
+      "confusion_matrix": [
+        [
+          277,
+          0
+        ],
+        [
+          11,
+          27
+        ]
+      ],
+      "classification_report": {
+        "negative": {
+          "precision": 0.9618055555555556,
+          "recall": 1.0,
+          "f1-score": 0.9805309734513274,
+          "support": 277.0
+        },
+        "positive": {
+          "precision": 1.0,
+          "recall": 0.7105263157894737,
+          "f1-score": 0.8307692307692308,
+          "support": 38.0
+        },
+        "accuracy": 0.9650793650793651,
+        "macro avg": {
+          "precision": 0.9809027777777778,
+          "recall": 0.8552631578947368,
+          "f1-score": 0.9056501021102792,
+          "support": 315.0
+        },
+        "weighted avg": {
+          "precision": 0.9664131393298061,
+          "recall": 0.9650793650793651,
+          "f1-score": 0.9624644775087254,
+          "support": 315.0
+        }
+      }
+    },
+    "random_forest": {
+      "name": "random_forest",
+      "threshold_frozen_from_train": 0.8802107098826722,
+      "n_test": 315,
+      "pr_auc": 1.0,
+      "roc_auc": 1.0,
+      "accuracy_at_threshold": 0.9428571428571428,
+      "mcc_at_threshold": 0.7029947408830227,
+      "precision_at_threshold": 1.0,
+      "recall_at_threshold": 0.5263157894736842,
+      "confusion_matrix": [
+        [
+          277,
+          0
+        ],
+        [
+          18,
+          20
+        ]
+      ],
+      "classification_report": {
+        "negative": {
+          "precision": 0.9389830508474576,
+          "recall": 1.0,
+          "f1-score": 0.9685314685314685,
+          "support": 277.0
+        },
+        "positive": {
+          "precision": 1.0,
+          "recall": 0.5263157894736842,
+          "f1-score": 0.6896551724137931,
+          "support": 38.0
+        },
+        "accuracy": 0.9428571428571428,
+        "macro avg": {
+          "precision": 0.9694915254237289,
+          "recall": 0.763157894736842,
+          "f1-score": 0.8290933204726308,
+          "support": 315.0
+        },
+        "weighted avg": {
+          "precision": 0.9463438256658595,
+          "recall": 0.9428571428571428,
+          "f1-score": 0.9348892486823521,
+          "support": 315.0
+        }
+      }
+    }
+  },
+  "hard_negative_probe": {
+    "threshold_rf_train_recall_ge_0.8": 0.8802107098826722,
+    "hard_negative_count": 80,
+    "hard_negative_predicted_positive_count": 0,
+    "hard_negative_false_positive_rate": 0.0,
+    "hard_negative_score_mean": 0.028944159094535942,
+    "hard_negative_score_median": 0.013333333333333334,
+    "hard_ids_sample": [
+      "HARD_P27695",
+      "HARD_Q17R31",
+      "HARD_P15531",
+      "HARD_P10768",
+      "HARD_Q9NUJ1"
+    ],
+    "easy_test_negative_score_mean": 0.02256748689390707,
+    "easy_test_negative_score_median": 0.012666666666666666,
+    "easy_test_negative_count": 277
+  }
+}

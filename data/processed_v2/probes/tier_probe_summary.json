@@ -1,0 +1,15 @@
+{
+  "tiers": [
+    {
+      "tier_label": "Tier2_EC_hydrolase",
+      "source_file": "D:\\New folder\\unique-projects\\MINI PROJECT\\data\\processed_v2\\probes\\hard_negative_probe_v2.json",
+      "n_probe_sequences": 80,
+      "predicted_positive_count": 0,
+      "false_positive_rate": 0.0,
+      "score_mean": 0.028882931099956544,
+      "score_median": 0.016274170274170274,
+      "threshold_rf_frozen": 0.8799872855042372
+    }
+  ],
+  "note": "All probes use the same frozen RF threshold from train; no retuning."
+}

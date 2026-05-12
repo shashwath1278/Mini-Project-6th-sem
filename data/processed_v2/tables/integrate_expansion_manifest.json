@@ -1,0 +1,7 @@
+{
+  "n_rows": 189,
+  "tier1": 160,
+  "tier2": 29,
+  "out_csv": "D:\\New folder\\unique-projects\\MINI PROJECT\\data\\processed_v2\\tables\\positives_gt_expanded.csv",
+  "out_fasta": "D:\\New folder\\unique-projects\\MINI PROJECT\\data\\processed_v2\\sequences\\positives_from_gt_expanded.fasta"
+}

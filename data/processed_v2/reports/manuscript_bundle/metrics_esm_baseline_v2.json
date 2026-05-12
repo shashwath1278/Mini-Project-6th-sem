@@ -1,0 +1,96 @@
+{
+  "embeddings": "D:\\New folder\\unique-projects\\MINI PROJECT\\data\\processed_v2\\embeddings\\embeddings_esm2_t33_mean_v2.npz",
+  "train_ids": "D:\\New folder\\unique-projects\\MINI PROJECT\\data\\processed_v2\\splits\\split_train_accessions.txt",
+  "test_ids": "D:\\New folder\\unique-projects\\MINI PROJECT\\data\\processed_v2\\splits\\split_test_accessions.txt",
+  "tier_csv": "D:\\New folder\\unique-projects\\MINI PROJECT\\data\\processed_v2\\tables\\positives_gt_expanded.csv",
+  "tier1_weight": 1.0,
+  "tier2_weight": 0.5,
+  "recall_target_for_threshold": 0.8,
+  "note": "Train uses balanced sample_weight \u00d7 tier multipliers on positives; threshold still chosen on train positives at recall target.",
+  "models": {
+    "logistic_regression": {
+      "name": "logistic_regression",
+      "threshold_train_recall_ge_0.8": 0.9998768768328214,
+      "n_test_combined": 330,
+      "test_combined": {
+        "pr_auc": 0.9999999999999999,
+        "roc_auc": 1.0,
+        "mcc_at_threshold": 0.7999807467841085,
+        "accuracy_at_threshold": 0.9484848484848485,
+        "precision_at_threshold": 1.0,
+        "recall_at_threshold": 0.6792452830188679,
+        "confusion_matrix": [
+          [
+            277,
+            0
+          ],
+          [
+            17,
+            36
+          ]
+        ]
+      },
+      "n_test_gold_pos_plus_all_negs": 316,
+      "test_gold_positives_plus_all_negatives": {
+        "pr_auc": 1.0,
+        "roc_auc": 1.0,
+        "mcc_at_threshold": 0.8309795818954071,
+        "accuracy_at_threshold": 0.9651898734177216,
+        "precision_at_threshold": 1.0,
+        "recall_at_threshold": 0.717948717948718,
+        "confusion_matrix": [
+          [
+            277,
+            0
+          ],
+          [
+            11,
+            28
+          ]
+        ]
+      }
+    },
+    "random_forest": {
+      "name": "random_forest",
+      "threshold_train_recall_ge_0.8": 0.8799872855042372,
+      "n_test_combined": 330,
+      "test_combined": {
+        "pr_auc": 1.0,
+        "roc_auc": 1.0,
+        "mcc_at_threshold": 0.6961093929063271,
+        "accuracy_at_threshold": 0.9242424242424242,
+        "precision_at_threshold": 1.0,
+        "recall_at_threshold": 0.5283018867924528,
+        "confusion_matrix": [
+          [
+            277,
+            0
+          ],
+          [
+            25,
+            28
+          ]
+        ]
+      },
+      "n_test_gold_pos_plus_all_negs": 316,
+      "test_gold_positives_plus_all_negatives": {
+        "pr_auc": 1.0,
+        "roc_auc": 1.0,
+        "mcc_at_threshold": 0.6927503012651672,
+        "accuracy_at_threshold": 0.939873417721519,
+        "precision_at_threshold": 1.0,
+        "recall_at_threshold": 0.5128205128205128,
+        "confusion_matrix": [
+          [
+            277,
+            0
+          ],
+          [
+            19,
+            20
+          ]
+        ]
+      }
+    }
+  }
+}

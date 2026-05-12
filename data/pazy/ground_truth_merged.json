@@ -1,0 +1,1136 @@
+[
+  {
+    "accession": "A0A0K8P6T7",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=1 name=ISPETase; plastics=PEF, PET"
+  },
+  {
+    "accession": "R4YKL9",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=2 name=PET5; plastics=PET"
+  },
+  {
+    "accession": "A0A1Z2SIQ1",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=3 name=PET6; plastics=PET"
+  },
+  {
+    "accession": "A0A0G3BI90",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=4 name=PET12; plastics=PET"
+  },
+  {
+    "accession": "E9KJL1",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=7 name=PpCutA; plastics=PET"
+  },
+  {
+    "accession": "A0A1B0Z6Y3",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=8 name=PpelaLip; plastics=PET"
+  },
+  {
+    "accession": "A4Y035",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=10 name=PmC; plastics=PET"
+  },
+  {
+    "accession": "P19833",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=11 name=Mors1; plastics=PEF, PET"
+  },
+  {
+    "accession": "W6R2Y2",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=12 name=PpEst; plastics=PBAT, PET"
+  },
+  {
+    "accession": "A0ABY3Q520",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=14 name=EstB; plastics=PET"
+  },
+  {
+    "accession": "A0A1W6L588",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=15 name=RgPETase; plastics=PET"
+  },
+  {
+    "accession": "G9BY57",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=16 name=LCC; plastics=PEF, PET, PUR"
+  },
+  {
+    "accession": "W0TJ64",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=18 name=Cut190; plastics=PET"
+  },
+  {
+    "accession": "Q6A0I4",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=19 name=BTA-1; plastics=PET"
+  },
+  {
+    "accession": "Q6A0I3",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=20 name=BTA-2; plastics=PET"
+  },
+  {
+    "accession": "Q47RJ6",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=22 name=Tfu_0883; plastics=PET"
+  },
+  {
+    "accession": "Q47RJ7",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=23 name=Tfu_0882; plastics=PET"
+  },
+  {
+    "accession": "E5BBQ2",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=24 name=TfCut_1; plastics=PET"
+  },
+  {
+    "accession": "G8GER6",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=26 name=Cut1; plastics=PET"
+  },
+  {
+    "accession": "E9LVH8",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=28 name=Thc_Cut1; plastics=PBAT, PEF, PET, PLA"
+  },
+  {
+    "accession": "E9LVH9",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=29 name=Thc_Cut2; plastics=PET, PLA"
+  },
+  {
+    "accession": "D1A9G5",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=30 name=Tcur_1278; plastics=PET, PUR"
+  },
+  {
+    "accession": "D1A2H1",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=31 name=Tcur0390; plastics=PET, PUR"
+  },
+  {
+    "accession": "H6WX58",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=32 name=Thh_Est; plastics=PET"
+  },
+  {
+    "accession": "D4Q9N1",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=33 name=Est1; plastics=PBAT, PET"
+  },
+  {
+    "accession": "F7IX06",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=35 name=Est119; plastics=PBAT, PET, PLA"
+  },
+  {
+    "accession": "D7R6G8",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=36 name=BsEstB; plastics=PET"
+  },
+  {
+    "accession": "A0A0C1F4U8",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=39 name=PET30; plastics=PET"
+  },
+  {
+    "accession": "P41365",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=42 name=CalB; plastics=PET, PUR"
+  },
+  {
+    "accession": "P00590",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=43 name=FsC; plastics=PET"
+  },
+  {
+    "accession": "A0A075B5G4",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=44 name=HiC; plastics=PBAT, PEF, PET"
+  },
+  {
+    "accession": "Q9WX47",
+    "substrate": "PLA",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=46 name=PudA; plastics=PLA, PUR"
+  },
+  {
+    "accession": "B0FLR6",
+    "substrate": "PLA",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=69 name=PLAase II; plastics=PLA"
+  },
+  {
+    "accession": "B0FY08",
+    "substrate": "PLA",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=70 name=PLAase III; plastics=PLA"
+  },
+  {
+    "accession": "Q83VD0",
+    "substrate": "PLA",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=71 name=PLaA; plastics=PLA"
+  },
+  {
+    "accession": "Q0VLQ1",
+    "substrate": "PLA",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=74 name=Esterase; plastics=PLA"
+  },
+  {
+    "accession": "Q6N9M9",
+    "substrate": "PLA",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=75 name=Esterase; plastics=PLA"
+  },
+  {
+    "accession": "P29600",
+    "substrate": "PLA",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=76 name=Subtilisin Savinase; plastics=PLA"
+  },
+  {
+    "accession": "P29599",
+    "substrate": "PLA",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=77 name=Subtilisin BL; plastics=PLA"
+  },
+  {
+    "accession": "P00780",
+    "substrate": "PLA",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=79 name=Subtilisin SubC; plastics=PLA"
+  },
+  {
+    "accession": "A0A291HVH1",
+    "substrate": "PLA",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=81 name=LP175; plastics=PLA"
+  },
+  {
+    "accession": "W0M2H4",
+    "substrate": "PLA",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=83 name=MGS0010; plastics=PLA"
+  },
+  {
+    "accession": "A0A0G3FL20",
+    "substrate": "PLA",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=85 name=MGS0084; plastics=PLA"
+  },
+  {
+    "accession": "A0A0G3FEJ8",
+    "substrate": "PLA",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=86 name=MGS0156; plastics=PLA"
+  },
+  {
+    "accession": "A0A0G3FJ39",
+    "substrate": "PLA",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=87 name=GEN0105; plastics=PLA"
+  },
+  {
+    "accession": "P06873",
+    "substrate": "PLA",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=93 name=Proteinase K; plastics=PLA"
+  },
+  {
+    "accession": "P52956",
+    "substrate": "PLA",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=94 name=CutL1; plastics=PBS, PLA"
+  },
+  {
+    "accession": "Q874E9",
+    "substrate": "PLA",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=95 name=Cutinase; plastics=PLA"
+  },
+  {
+    "accession": "A0A0P0ZE81",
+    "substrate": "PLA",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=96 name=CLE; plastics=PLA"
+  },
+  {
+    "accession": "A0A060N5H2",
+    "substrate": "PLA",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=97 name=CmCut; plastics=PLA"
+  },
+  {
+    "accession": "A0A060N399",
+    "substrate": "PLA",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=98 name=PCLE; plastics=PLA"
+  },
+  {
+    "accession": "S6BC01",
+    "substrate": "PLA",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=99 name=PaE; plastics=PLA"
+  },
+  {
+    "accession": "Q0KCI0",
+    "substrate": "PHA",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=100 name=PhaZ1; plastics=PHA"
+  },
+  {
+    "accession": "Q0K7T2",
+    "substrate": "PHA",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=101 name=PhaZ2; plastics=PHA"
+  },
+  {
+    "accession": "Q0K4D5",
+    "substrate": "PHA",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=102 name=PhaZ3; plastics=PHA"
+  },
+  {
+    "accession": "Q7WXF6",
+    "substrate": "PHA",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=103 name=PhaZ4; plastics=PHA"
+  },
+  {
+    "accession": "Q0K2G9",
+    "substrate": "PHA",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=104 name=PhaZ5; plastics=PHA"
+  },
+  {
+    "accession": "Q0JZG9",
+    "substrate": "PHA",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=105 name=PhaZd1; plastics=PHA"
+  },
+  {
+    "accession": "Q0JYJ1",
+    "substrate": "PHA",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=106 name=PhaZd2; plastics=PHA"
+  },
+  {
+    "accession": "Q0K9H3",
+    "substrate": "PHA",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=107 name=PhaY1(PhaZ2); plastics=PHA"
+  },
+  {
+    "accession": "Q0KBZ6",
+    "substrate": "PHA",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=108 name=PhaY2; plastics=PHA"
+  },
+  {
+    "accession": "P94146",
+    "substrate": "PHA",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=109 name=PhaZAfa; plastics=PHA"
+  },
+  {
+    "accession": "Q939Q9",
+    "substrate": "PHA",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=110 name=PhaZ7; plastics=PHA"
+  },
+  {
+    "accession": "Q51871",
+    "substrate": "PHA",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=111 name=PhaZ5; plastics=PHA"
+  },
+  {
+    "accession": "O82950",
+    "substrate": "PHA",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=112 name=PhaZst; plastics=PHA"
+  },
+  {
+    "accession": "B2NHN2",
+    "substrate": "PHA",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=115 name=PHB depolymerase; plastics=PHA"
+  },
+  {
+    "accession": "A0A1E1FNX8",
+    "substrate": "PBAT",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=122 name=PBATHBp; plastics=PBAT"
+  },
+  {
+    "accession": "A0A1T4KK94",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=149 name=606; plastics=PET"
+  },
+  {
+    "accession": "A0A1I6NU60",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=151 name=611; plastics=PET"
+  },
+  {
+    "accession": "A0A5P3LVN0",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=177 name=Sub1; plastics=PET"
+  },
+  {
+    "accession": "A0A1W6L438",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=178 name=RgCut-2; plastics=PET"
+  },
+  {
+    "accession": "A0A078MGG8",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=179 name=PsCut; plastics=PET"
+  },
+  {
+    "accession": "A0A031MKR8",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=180 name=PbauzCut; plastics=PET"
+  },
+  {
+    "accession": "Q8RR62",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=181 name=AdCut; plastics=PET"
+  },
+  {
+    "accession": "X0BTD8",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=182 name=FoCut5a; plastics=PET"
+  },
+  {
+    "accession": "V2XFA5",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=183 name=MRCUT1; plastics=PET"
+  },
+  {
+    "accession": "E8U721",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=184 name=PET1; plastics=PET"
+  },
+  {
+    "accession": "A0A679PDB4",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=185 name=SM14est; plastics=PET"
+  },
+  {
+    "accession": "L0EF70",
+    "substrate": "PBAT",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=207 name=Tcca; plastics=PBAT"
+  },
+  {
+    "accession": "A0A090KQ36",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=210 name=Est8_89; plastics=PET"
+  },
+  {
+    "accession": "A0A090IVG8",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=213 name=Ces19_14; plastics=PET"
+  },
+  {
+    "accession": "A0A1M7II12",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=215 name=CaPETase; plastics=PET"
+  },
+  {
+    "accession": "A0A413UCA3",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=223 name=HG-2; plastics=PET"
+  },
+  {
+    "accession": "A0A150JTB6",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=225 name=HG-4; plastics=PET"
+  },
+  {
+    "accession": "A0A9P9DYB3",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=231 name=DmC; plastics=PET"
+  },
+  {
+    "accession": "A0AB38ZML8",
+    "substrate": "PBAT",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=233 name=BaCut1; plastics=PBAT, PUR"
+  },
+  {
+    "accession": "A0A514JZP5",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=242 name=ScPETase; plastics=PET"
+  },
+  {
+    "accession": "P00761",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=251 name=Trypsin; plastics=PET"
+  },
+  {
+    "accession": "P08684",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=252 name=CYP450; plastics=PET"
+  },
+  {
+    "accession": "A0A0U5AS91",
+    "substrate": "PLA",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=254 name=PAM; plastics=PLA"
+  },
+  {
+    "accession": "A0ABS4TKU6",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=257 name=KbPETase; plastics=PET"
+  },
+  {
+    "accession": "A0A3D9SRH8",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=260 name=APET-19; plastics=PET"
+  },
+  {
+    "accession": "A0A919PNJ3",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=265 name=APET-26; plastics=PET"
+  },
+  {
+    "accession": "A0A2P4EQG9",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=266 name=APET-27; plastics=PET"
+  },
+  {
+    "accession": "A0A1H3QT72",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=270 name=Mipa-P; plastics=PET"
+  },
+  {
+    "accession": "A0A1H3K3E8",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=271 name=1628; plastics=PET"
+  },
+  {
+    "accession": "A0A3E0H050",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=276 name=Kubu-P; plastics=PET"
+  },
+  {
+    "accession": "A0A1C4XDC9",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=279 name=1621; plastics=PET"
+  },
+  {
+    "accession": "I0L7L7",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=280 name=1617; plastics=PET"
+  },
+  {
+    "accession": "A0A4R4PH12",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=285 name=1468; plastics=PET"
+  },
+  {
+    "accession": "A0A9X0I4X4",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=292 name=1546; plastics=PET"
+  },
+  {
+    "accession": "A0A5C4QSJ8",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=294 name=1642; plastics=PET"
+  },
+  {
+    "accession": "A0A0F0GA73",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=298 name=1678; plastics=PET"
+  },
+  {
+    "accession": "A0A1B2HNS7",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=300 name=1169; plastics=PET"
+  },
+  {
+    "accession": "A0A4Q7UDQ3",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=301 name=1637; plastics=PET"
+  },
+  {
+    "accession": "A0A316HUR8",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=305 name=1573; plastics=PET"
+  },
+  {
+    "accession": "A0A1C4XD55",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=308 name=1591; plastics=PET"
+  },
+  {
+    "accession": "A0A0L6CLF9",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=310 name=1240; plastics=PET"
+  },
+  {
+    "accession": "A0A543A134",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=315 name=1309; plastics=PET"
+  },
+  {
+    "accession": "A0A3N2H5C7",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=316 name=414; plastics=PET"
+  },
+  {
+    "accession": "A0A1W1ZJY9",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=317 name=1506; plastics=PET"
+  },
+  {
+    "accession": "A0A4Q7KGM3",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=319 name=1395; plastics=PET"
+  },
+  {
+    "accession": "A0A420F8B0",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=328 name=486; plastics=PET"
+  },
+  {
+    "accession": "A0A101UPP1",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=334 name=1876; plastics=PET"
+  },
+  {
+    "accession": "A0A2P4UJS9",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=335 name=1340; plastics=PET"
+  },
+  {
+    "accession": "A0A1H6C9P0",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=337 name=PC3; plastics=PET"
+  },
+  {
+    "accession": "A0A3R9F716",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=338 name=PC4; plastics=PET"
+  },
+  {
+    "accession": "A0A1Q9LLU8",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=339 name=PC5; plastics=PET"
+  },
+  {
+    "accession": "A0A147KJY8",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=340 name=PC6; plastics=PET"
+  },
+  {
+    "accession": "C7QZV3",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=381 name=DP003; plastics=PET"
+  },
+  {
+    "accession": "W7IW76",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=383 name=DP007; plastics=PET"
+  },
+  {
+    "accession": "A0A4Q7L5W5",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=384 name=DP008; plastics=PET"
+  },
+  {
+    "accession": "A0A6I4MG66",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=385 name=DP016; plastics=PET"
+  },
+  {
+    "accession": "A0ABR7LG92",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=386 name=DP017; plastics=PET"
+  },
+  {
+    "accession": "A0A1W6L7G8",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=389 name=DP039; plastics=PET"
+  },
+  {
+    "accession": "W7J542",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=390 name=DP040; plastics=PET"
+  },
+  {
+    "accession": "A0A6I4W9J4",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=392 name=DP054; plastics=PET"
+  },
+  {
+    "accession": "A0A7X0EU44",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=398 name=DP078; plastics=PET"
+  },
+  {
+    "accession": "A0ABQ3Z6H3",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=401 name=DP082; plastics=PET"
+  },
+  {
+    "accession": "A0A5N6AZJ9",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=405 name=DP092; plastics=PET"
+  },
+  {
+    "accession": "A0A941ALA2",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=409 name=ESM021; plastics=PET"
+  },
+  {
+    "accession": "A0A6V8KV47",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=412 name=ESM033; plastics=PET"
+  },
+  {
+    "accession": "A0A6V8KDL4",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=419 name=ESM058; plastics=PET"
+  },
+  {
+    "accession": "A0ABS0HAQ4",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=422 name=ESM061; plastics=PET"
+  },
+  {
+    "accession": "A0A561VZY8",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=423 name=ESM062; plastics=PET"
+  },
+  {
+    "accession": "A0ABQ5R2R9",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=424 name=ESM064; plastics=PET"
+  },
+  {
+    "accession": "A0A1C5JVZ6",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=428 name=ESM080; plastics=PET"
+  },
+  {
+    "accession": "A0A917UAD8",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=432 name=ESM090; plastics=PET"
+  },
+  {
+    "accession": "A0A919PGK4",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=433 name=ESM093; plastics=PET"
+  },
+  {
+    "accession": "A0A9W6KVP5",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=435 name=ESM097; plastics=PET"
+  },
+  {
+    "accession": "A0A8J3NIL5",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=443 name=ESM144; plastics=PET"
+  },
+  {
+    "accession": "A0A919NVN0",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=444 name=ESM156; plastics=PET"
+  },
+  {
+    "accession": "A0A317D8W8",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=445 name=ESM157; plastics=PET"
+  },
+  {
+    "accession": "A0A8J3Q2S4",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=446 name=ESM159; plastics=PET"
+  },
+  {
+    "accession": "A0A239PER3",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=447 name=ESM160; plastics=PET"
+  },
+  {
+    "accession": "A0A1H5ATK4",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=448 name=ESM167; plastics=PET"
+  },
+  {
+    "accession": "A0A8J3LA20",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=451 name=ESM177; plastics=PET"
+  },
+  {
+    "accession": "A0A1I4Q7B4",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=452 name=ESM186; plastics=PET"
+  },
+  {
+    "accession": "A0ABQ4E7M7",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=463 name=TEP092; plastics=PET"
+  },
+  {
+    "accession": "A0A243SAH7",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=464 name=TEP097; plastics=PET"
+  },
+  {
+    "accession": "A0A5M7BCA1",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=468 name=TEP105; plastics=PET"
+  },
+  {
+    "accession": "A0ABS4TWQ7",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=469 name=TEP109; plastics=PET"
+  },
+  {
+    "accession": "A0ABV8LVF2",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=476 name=TEP178; plastics=PET"
+  },
+  {
+    "accession": "A0A1W2FU08",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=480 name=KaPETase; plastics=PET"
+  },
+  {
+    "accession": "A0A4P1LYH5",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "PAZy protein_id=494 name=E4; plastics=PET"
+  },
+  {
+    "accession": "Q51870",
+    "substrate": "PHA",
+    "evidence_tier": 2,
+    "source_db": "PlasticDB",
+    "source_note": "PlasticDB row=00006|PHB_depolymerase|Paucimonas_lemoignei|PHB_PHA|WP_132257894.1; mapped_from=WP_132257894.1"
+  },
+  {
+    "accession": "P72207",
+    "substrate": "PHA",
+    "evidence_tier": 2,
+    "source_db": "PlasticDB",
+    "source_note": "PlasticDB row=00007|PHB_depolymerase|Paucimonas_lemoignei|PHB_PHA|WP_132256575.1; mapped_from=WP_132256575.1"
+  },
+  {
+    "accession": "Q96UT0.1",
+    "substrate": "PCL",
+    "evidence_tier": 2,
+    "source_db": "PlasticDB",
+    "source_note": "PlasticDB row=00008|Cutinase|Fusarium_verticillioides|PCL|Q96UT0.1; mapped_from=Q96UT0.1"
+  },
+  {
+    "accession": "Q96US9.1",
+    "substrate": "PCL",
+    "evidence_tier": 2,
+    "source_db": "PlasticDB",
+    "source_note": "PlasticDB row=00009|Cutinase|Fusarium_verticillioides|PCL|Q96US9.1; mapped_from=Q96US9.1"
+  },
+  {
+    "accession": "A0A0K8P8E7",
+    "substrate": "PET",
+    "evidence_tier": 2,
+    "source_db": "PlasticDB",
+    "source_note": "PlasticDB row=00084|MHETase|Ideonella_sakaiensis|PET|A0A0K8P8E7; mapped_from=A0A0K8P8E7"
+  },
+  {
+    "accession": "M9YBL3",
+    "substrate": "PHA",
+    "evidence_tier": 2,
+    "source_db": "PlasticDB",
+    "source_note": "PlasticDB row=00101|PHB_depolymerase|Azotobacter_vinelandii|PHB_PHA|WP_012699077.1; mapped_from=WP_012699077.1"
+  },
+  {
+    "accession": "A0ABM7M4R0",
+    "substrate": "PET",
+    "evidence_tier": 2,
+    "source_db": "PlasticDB",
+    "source_note": "PlasticDB row=00327|PETase|Actinoplanes_ianthinogenes|PET|WP_212846608.1; mapped_from=WP_212846608.1"
+  }
+]

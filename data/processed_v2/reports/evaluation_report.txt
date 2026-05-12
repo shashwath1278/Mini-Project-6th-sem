@@ -1,0 +1,45 @@
+ESM baseline — test evaluation report (frozen thresholds)
+
+Embeddings: D:\New folder\unique-projects\MINI PROJECT\data\processed_v2\embeddings\embeddings_esm2_t33_mean_v2.npz
+Test ID list: D:\New folder\unique-projects\MINI PROJECT\data\processed_v2\splits\split_test_accessions.txt
+Metrics / thresholds from: D:\New folder\unique-projects\MINI PROJECT\data\processed_v2\metrics\metrics_esm_baseline.json
+
+=== random_forest ===
+  PR-AUC: 1.000000
+  ROC-AUC: 1.000000
+  Threshold (train, recall>=0.8 rule): 0.880211
+  Accuracy @ threshold: 0.942857
+  MCC @ threshold: 0.702995
+  Precision @ threshold (positive class): 1.000000
+  Recall @ threshold (positive class): 0.526316
+  Confusion matrix [[TN, FP],[FN, TP]]: [[277, 0], [18, 20]]
+
+=== logistic_regression ===
+  PR-AUC: 0.998684
+  ROC-AUC: 0.999810
+  Threshold (train, recall>=0.8 rule): 0.999862
+  Accuracy @ threshold: 0.965079
+  MCC @ threshold: 0.826673
+  Precision @ threshold (positive class): 1.000000
+  Recall @ threshold (positive class): 0.710526
+  Confusion matrix [[TN, FP],[FN, TP]]: [[277, 0], [11, 27]]
+
+=== Hard negative probe (RF threshold, no retuning) ===
+{
+  "threshold_rf_train_recall_ge_0.8": 0.8802107098826722,
+  "hard_negative_count": 80,
+  "hard_negative_predicted_positive_count": 0,
+  "hard_negative_false_positive_rate": 0.0,
+  "hard_negative_score_mean": 0.028944159094535942,
+  "hard_negative_score_median": 0.013333333333333334,
+  "hard_ids_sample": [
+    "HARD_P27695",
+    "HARD_Q17R31",
+    "HARD_P15531",
+    "HARD_P10768",
+    "HARD_Q9NUJ1"
+  ],
+  "easy_test_negative_score_mean": 0.02256748689390707,
+  "easy_test_negative_score_median": 0.012666666666666666,
+  "easy_test_negative_count": 277
+}

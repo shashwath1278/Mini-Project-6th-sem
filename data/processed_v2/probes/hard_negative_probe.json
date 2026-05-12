@@ -1,0 +1,18 @@
+{
+  "threshold_rf_train_recall_ge_0.8": 0.8802107098826722,
+  "hard_negative_count": 80,
+  "hard_negative_predicted_positive_count": 0,
+  "hard_negative_false_positive_rate": 0.0,
+  "hard_negative_score_mean": 0.028944159094535942,
+  "hard_negative_score_median": 0.013333333333333334,
+  "hard_ids_sample": [
+    "HARD_P27695",
+    "HARD_Q17R31",
+    "HARD_P15531",
+    "HARD_P10768",
+    "HARD_Q9NUJ1"
+  ],
+  "easy_test_negative_score_mean": 0.02256748689390707,
+  "easy_test_negative_score_median": 0.012666666666666666,
+  "easy_test_negative_count": 277
+}

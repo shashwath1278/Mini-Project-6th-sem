@@ -1,0 +1,51 @@
+[
+  {
+    "accession": "Q51870",
+    "substrate": "PHA",
+    "evidence_tier": 2,
+    "source_db": "PlasticDB",
+    "source_note": "PlasticDB row=00006|PHB_depolymerase|Paucimonas_lemoignei|PHB_PHA|WP_132257894.1; mapped_from=WP_132257894.1"
+  },
+  {
+    "accession": "P72207",
+    "substrate": "PHA",
+    "evidence_tier": 2,
+    "source_db": "PlasticDB",
+    "source_note": "PlasticDB row=00007|PHB_depolymerase|Paucimonas_lemoignei|PHB_PHA|WP_132256575.1; mapped_from=WP_132256575.1"
+  },
+  {
+    "accession": "Q96UT0.1",
+    "substrate": "PCL",
+    "evidence_tier": 2,
+    "source_db": "PlasticDB",
+    "source_note": "PlasticDB row=00008|Cutinase|Fusarium_verticillioides|PCL|Q96UT0.1; mapped_from=Q96UT0.1"
+  },
+  {
+    "accession": "Q96US9.1",
+    "substrate": "PCL",
+    "evidence_tier": 2,
+    "source_db": "PlasticDB",
+    "source_note": "PlasticDB row=00009|Cutinase|Fusarium_verticillioides|PCL|Q96US9.1; mapped_from=Q96US9.1"
+  },
+  {
+    "accession": "A0A0K8P8E7",
+    "substrate": "PET",
+    "evidence_tier": 2,
+    "source_db": "PlasticDB",
+    "source_note": "PlasticDB row=00084|MHETase|Ideonella_sakaiensis|PET|A0A0K8P8E7; mapped_from=A0A0K8P8E7"
+  },
+  {
+    "accession": "M9YBL3",
+    "substrate": "PHA",
+    "evidence_tier": 2,
+    "source_db": "PlasticDB",
+    "source_note": "PlasticDB row=00101|PHB_depolymerase|Azotobacter_vinelandii|PHB_PHA|WP_012699077.1; mapped_from=WP_012699077.1"
+  },
+  {
+    "accession": "A0ABM7M4R0",
+    "substrate": "PET",
+    "evidence_tier": 2,
+    "source_db": "PlasticDB",
+    "source_note": "PlasticDB row=00327|PETase|Actinoplanes_ianthinogenes|PET|WP_212846608.1; mapped_from=WP_212846608.1"
+  }
+]

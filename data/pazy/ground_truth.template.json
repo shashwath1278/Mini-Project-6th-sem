@@ -1,0 +1,9 @@
+[
+  {
+    "accession": "REPLACE_WITH_UNIPROT_ACCESSION",
+    "substrate": "PET",
+    "evidence_tier": 1,
+    "source_db": "PAZy",
+    "source_note": "Paste PAZy table row id or URL if available."
+  }
+]

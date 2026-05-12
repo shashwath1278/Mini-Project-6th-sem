@@ -1,0 +1,12 @@
+kind,split_id,accession,y_true,y_pred,score,substrate,source_note
+false_negative,A0A090IVG8,A0A090IVG8,1,0,0.9816697279931602,PET,PAZy protein_id=213 name=Ces19_14; plastics=PET
+false_negative,A0A150JTB6,A0A150JTB6,1,0,0.9955588447413001,PET,PAZy protein_id=225 name=HG-4; plastics=PET
+false_negative,A0A1E1FNX8,A0A1E1FNX8,1,0,0.9934497266693643,PBAT,PAZy protein_id=122 name=PBATHBp; plastics=PBAT
+false_negative,A0A4P1LYH5,A0A4P1LYH5,1,0,0.9619847463963396,PET,PAZy protein_id=494 name=E4; plastics=PET
+false_negative,A0A4Q7KGM3,A0A4Q7KGM3,1,0,0.9991144371375036,PET,PAZy protein_id=319 name=1395; plastics=PET
+false_negative,B2NHN2,B2NHN2,1,0,0.9946287051931633,PHA,PAZy protein_id=115 name=PHB depolymerase; plastics=PHA
+false_negative,P00761,P00761,1,0,0.0466638187808362,PET,PAZy protein_id=251 name=Trypsin; plastics=PET
+false_negative,P41365,P41365,1,0,0.9311946518063867,PET,"PAZy protein_id=42 name=CalB; plastics=PET, PUR"
+false_negative,Q4W8C9,Q4W8C9,1,0,0.999611433150994,,
+false_negative,Q51870,Q51870,1,0,0.9993831856596128,PHA,PlasticDB row=00006|PHB_depolymerase|Paucimonas_lemoignei|PHB_PHA|WP_132257894.1; mapped_from=WP_132257894.1
+false_negative,Q7WXF6,Q7WXF6,1,0,0.9811660213494133,PHA,PAZy protein_id=103 name=PhaZ4; plastics=PHA

@@ -1,0 +1,28 @@
+{
+  "blast_work_dir": "C:\\Users\\drspr\\AppData\\Local\\Temp\\plasticdeg_expand_blast",
+  "gold_unique_sequences": 162,
+  "databases": {
+    "PlasticDB": {
+      "raw_hits": 17249,
+      "after_filter": 195
+    },
+    "PlasticEnz": {
+      "raw_hits": 9241,
+      "after_filter": 149
+    }
+  },
+  "silver_before_dedup": 344,
+  "silver_after_gold_exclude": 163,
+  "silver_with_sequence": 163,
+  "overlap_between_dbs": {
+    "accessions_hit_by_multiple_dbs": 0
+  },
+  "total_rows": 325,
+  "tier1_count": 162,
+  "tier2_count": 163,
+  "parameters": {
+    "evalue": 1e-10,
+    "min_pident": 90.0,
+    "min_qcovs": 90.0
+  }
+}

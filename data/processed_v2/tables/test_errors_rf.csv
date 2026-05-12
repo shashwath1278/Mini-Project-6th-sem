@@ -1,0 +1,19 @@
+kind,split_id,accession,y_true,y_pred,score,substrate,source_note
+false_negative,A0A090IVG8,A0A090IVG8,1,0,0.20709699592173791,PET,PAZy protein_id=213 name=Ces19_14; plastics=PET
+false_negative,A0A0G3FJ39,A0A0G3FJ39,1,0,0.4796861445498181,PLA,PAZy protein_id=87 name=GEN0105; plastics=PLA
+false_negative,A0A150JTB6,A0A150JTB6,1,0,0.2687098048547321,PET,PAZy protein_id=225 name=HG-4; plastics=PET
+false_negative,A0A1E1FNX8,A0A1E1FNX8,1,0,0.5383686899277451,PBAT,PAZy protein_id=122 name=PBATHBp; plastics=PBAT
+false_negative,A0A4P1LYH5,A0A4P1LYH5,1,0,0.4363724867693384,PET,PAZy protein_id=494 name=E4; plastics=PET
+false_negative,B2NHN2,B2NHN2,1,0,0.6288756635147624,PHA,PAZy protein_id=115 name=PHB depolymerase; plastics=PHA
+false_negative,E9LVH8,E9LVH8,1,0,0.8688318770456779,PET,"PAZy protein_id=28 name=Thc_Cut1; plastics=PBAT, PEF, PET, PLA"
+false_negative,E9LVH9,E9LVH9,1,0,0.8738018830536087,PET,"PAZy protein_id=29 name=Thc_Cut2; plastics=PET, PLA"
+false_negative,H6WX58,H6WX58,1,0,0.8521143938004283,PET,PAZy protein_id=32 name=Thh_Est; plastics=PET
+false_negative,P00761,P00761,1,0,0.19334996378082572,PET,PAZy protein_id=251 name=Trypsin; plastics=PET
+false_negative,P00780,P00780,1,0,0.5901380697234924,PLA,PAZy protein_id=79 name=Subtilisin SubC; plastics=PLA
+false_negative,P41365,P41365,1,0,0.7030929164662651,PET,"PAZy protein_id=42 name=CalB; plastics=PET, PUR"
+false_negative,P72207,P72207,1,0,0.7944362529716716,PHA,PlasticDB row=00007|PHB_depolymerase|Paucimonas_lemoignei|PHB_PHA|WP_132256575.1; mapped_from=WP_132256575.1
+false_negative,Q0K2G9,Q0K2G9,1,0,0.6548115832647582,PHA,PAZy protein_id=104 name=PhaZ5; plastics=PHA
+false_negative,Q4W8C9,Q4W8C9,1,0,0.40239855516147305,,
+false_negative,Q51870,Q51870,1,0,0.7167139800998068,PHA,PlasticDB row=00006|PHB_depolymerase|Paucimonas_lemoignei|PHB_PHA|WP_132257894.1; mapped_from=WP_132257894.1
+false_negative,Q7WXF6,Q7WXF6,1,0,0.48357838855626084,PHA,PAZy protein_id=103 name=PhaZ4; plastics=PHA
+false_negative,Q9WX47,Q9WX47,1,0,0.7810946751374983,PLA,"PAZy protein_id=46 name=PudA; plastics=PLA, PUR"
