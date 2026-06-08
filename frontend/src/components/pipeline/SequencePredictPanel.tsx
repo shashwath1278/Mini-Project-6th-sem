@@ -38,25 +38,12 @@ export default function SequencePredictPanel() {
   };
 
   return (
-    <section id="predict" className="border-t border-border scroll-mt-16">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
-        <h2 className="section-title mb-2">Test sequences on the trained model</h2>
-        <p className="text-sm text-muted-foreground mb-6 max-w-3xl">
-          <strong className="text-foreground font-medium">How it runs:</strong> there is{" "}
-          <strong className="text-foreground">no</strong> separate Python web server. Each click
-          starts <em>one</em> background subprocess (
-          <code className="text-xs">python -m plasticdeg.eval.predict_sequences</code>
-          ). The browser gets a job id immediately, then <strong className="text-foreground">polls</strong>{" "}
-          every 2s — so long ESM downloads are <strong className="text-foreground">not</strong> cut off
-          by Next.js&apos;s ~10 minute single-request limit. Logs still stream in the{" "}
-          <code className="text-xs">npm run dev</code> terminal.
-        </p>
-        <p className="text-sm text-muted-foreground mb-6 max-w-3xl">
-          <strong className="text-foreground">First run</strong> can take many minutes (torch + ~1–2 GB
-          ESM weights + CPU embed). Set <code className="text-xs">PYTHON_BIN</code> in{" "}
-          <code className="text-xs">frontend/.env.local</code> to your conda{" "}
-          <code className="text-xs">python.exe</code> if needed.
-        </p>
+    <section
+      id="predict"
+      className="scroll-mt-14 border-t border-border/60 bg-muted/15 dark:bg-muted/10"
+    >
+      <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
+        <h2 className="section-title mb-6">Test sequences on the trained model</h2>
 
         <SpotlightCard spotlightColor="rgba(59, 130, 246, 0.1)" className="p-5">
           <div className="flex items-center gap-2 mb-3">

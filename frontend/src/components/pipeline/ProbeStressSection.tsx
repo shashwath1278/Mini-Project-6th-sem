@@ -18,15 +18,12 @@ export default function ProbeStressSection({ probe, tiers }: Props) {
           <ShieldAlert size={18} className="text-warning" />
           <h3 className="section-title !mb-0">
             <span title={`${METRIC_TIPS.rf} ${METRIC_TIPS.tauRf}`} className="cursor-help border-b border-dotted border-muted-foreground/40">
-              Hard-negative probe (frozen RF cutoff)
+              Hard-negative probe (RF)
             </span>
           </h3>
         </div>
         {!probe ? (
-          <p className="text-sm text-muted-foreground">
-            No <code className="text-xs">hard_negative_probe_v2.json</code> — run{" "}
-            <code className="text-xs">plasticdeg.eval.probe_hard_negatives</code>.
-          </p>
+          <p className="text-sm text-muted-foreground">No hard-negative probe data.</p>
         ) : (
           <dl className="grid grid-cols-2 gap-x-4 gap-y-2 text-sm">
             <dt className="text-muted-foreground cursor-help" title={METRIC_TIPS.baseline}>
@@ -75,10 +72,7 @@ export default function ProbeStressSection({ probe, tiers }: Props) {
           </h3>
         </div>
         {!tiers?.tiers?.length ? (
-          <p className="text-sm text-muted-foreground">
-            No <code className="text-xs">tier_probe_summary.json</code> — run{" "}
-            <code className="text-xs">plasticdeg.eval.summarize_probe_tiers</code>.
-          </p>
+          <p className="text-sm text-muted-foreground">No tier probe summary.</p>
         ) : (
           <ul className="space-y-3">
             {tiers.tiers.map((t) => (

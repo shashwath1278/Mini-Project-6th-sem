@@ -58,6 +58,11 @@ def manuscript_bundle_dir() -> Path:
     return reports_dir() / "manuscript_bundle"
 
 
+def report_figure_bundle_dir() -> Path:
+    """High-resolution PNG/PDF figures for manuscripts (see plasticdeg.eval.report_figure_bundle)."""
+    return reports_dir() / "figure_bundle"
+
+
 def probes_dir() -> Path:
     return processed_v2() / "probes"
 

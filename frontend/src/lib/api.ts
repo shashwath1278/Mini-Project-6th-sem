@@ -39,7 +39,7 @@ export const api = {
               : res.statusText;
         throw new Error(detail);
       }
-      return raw as PredictResponse;
+      return raw as unknown as PredictResponse;
     }
 
     const res = await fetch("/api/pipeline/predict", {

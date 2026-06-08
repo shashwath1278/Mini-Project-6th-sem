@@ -7,7 +7,7 @@
 export default function HeroBackdrop() {
   return (
     <div
-      className="hero-backdrop pointer-events-none absolute inset-0"
+      className="hero-backdrop pointer-events-none absolute inset-0 z-0"
       aria-hidden
     />
   );

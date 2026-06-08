@@ -50,6 +50,12 @@ export interface PipelineArtifactsManifest {
     roc_v1: ArtifactFileInfo;
     roc_v2: ArtifactFileInfo;
   };
+  figure_bundle: {
+    roc_test: ArtifactFileInfo;
+    pr_test: ArtifactFileInfo;
+    confusion_lr: ArtifactFileInfo;
+    confusion_rf: ArtifactFileInfo;
+  };
 }
 
 export interface ModelEvalBlock {

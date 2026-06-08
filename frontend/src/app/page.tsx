@@ -3,10 +3,12 @@
 import { useCallback, useEffect, useState } from "react";
 import {
   ArrowDown,
-  Dna,
+  Cpu,
+  Layers,
   Loader2,
   Moon,
   RefreshCw,
+  Sparkles,
   Sun,
 } from "lucide-react";
 import { useTheme } from "@/components/ThemeProvider";
@@ -20,8 +22,8 @@ import PipelineStageRail from "@/components/pipeline/PipelineStageRail";
 import CurveGallery from "@/components/pipeline/CurveGallery";
 import SequencePredictPanel from "@/components/pipeline/SequencePredictPanel";
 import HeroBackdrop from "@/components/HeroBackdrop";
+import HeroParticles from "@/components/HeroParticles";
 import SpotlightCard from "@/components/ui/SpotlightCard";
-import { METRIC_TIPS } from "@/lib/metricLabels";
 
 export default function Home() {
   const { theme, toggleTheme } = useTheme();
@@ -46,32 +48,46 @@ export default function Home() {
     void load();
   }, [load]);
 
-  const recallTarget =
-    (data?.metrics_esm_baseline_v2?.recall_target_for_threshold as number | undefined) ??
-    (data?.metrics_esm_baseline?.recall_target_for_threshold as number | undefined) ??
-    0.8;
-
   const rfCm =
     data?.metrics_esm_baseline_v2?.models?.random_forest?.test_combined
       ?.confusion_matrix;
 
-  const evalRf = data?.evaluation_report?.models as
-    | { random_forest?: { confusion_matrix?: number[][] } }
+  const lrCm =
+    data?.metrics_esm_baseline_v2?.models?.logistic_regression?.test_combined
+      ?.confusion_matrix;
+
+  const evalModels = data?.evaluation_report?.models as
+    | {
+        logistic_regression?: { confusion_matrix?: number[][] };
+        random_forest?: { confusion_matrix?: number[][] };
+      }
     | undefined;
 
   return (
-    <main className="min-h-screen">
-      <nav className="sticky top-0 z-50 border-b border-border bg-background/80 backdrop-blur-sm">
-        <div className="max-w-6xl mx-auto flex items-center justify-between px-6 h-14">
-          <span className="font-semibold text-sm tracking-tight flex items-center gap-2">
-            <Dna size={16} className="text-success" />
-            PlasticDeg · PAZy pipeline
-          </span>
-          <div className="flex items-center gap-3">
+    <main className="min-h-screen bg-background">
+      <nav className="sticky top-0 z-50 border-b border-border/60 bg-[var(--nav-blur)] backdrop-blur-xl backdrop-saturate-150">
+        <div className="mx-auto flex h-14 max-w-6xl items-center justify-between gap-3 px-4 sm:px-6">
+          <div className="flex min-w-0 items-center gap-3">
+            <span
+              className="flex size-9 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-emerald-500/35 via-teal-500/25 to-sky-500/30 text-white shadow-lg shadow-emerald-900/20 ring-1 ring-white/20 dark:from-emerald-500/25 dark:via-teal-500/15 dark:to-sky-500/25 dark:text-emerald-50 dark:shadow-emerald-950/40 dark:ring-white/10"
+              aria-hidden
+            >
+              <Sparkles size={18} strokeWidth={2} />
+            </span>
+            <div className="min-w-0 leading-tight">
+              <span className="block truncate text-sm font-semibold tracking-tight text-foreground">
+                Bioplastic AI
+              </span>
+              <span className="block truncate text-[10px] font-medium uppercase tracking-[0.14em] text-muted-foreground">
+                PAZy · screening
+              </span>
+            </div>
+          </div>
+          <div className="flex shrink-0 items-center gap-1.5 sm:gap-2">
             <button
               type="button"
               onClick={() => void load()}
-              className="btn-secondary text-xs"
+              className="btn-secondary px-3 py-2 text-xs"
               disabled={loading}
             >
               {loading ? (
@@ -81,16 +97,36 @@ export default function Home() {
               )}
               Refresh
             </button>
-            <a href="#predict" className="text-sm text-muted-foreground hover:text-foreground">
+            <div className="hidden items-center rounded-full border border-border/70 bg-muted/50 p-0.5 sm:flex dark:bg-muted/30">
+              <a
+                href="#predict"
+                className="rounded-full px-3 py-1.5 text-xs font-medium text-muted-foreground transition-colors hover:bg-card hover:text-foreground"
+              >
+                Predict
+              </a>
+              <a
+                href="#dashboard"
+                className="rounded-full px-3 py-1.5 text-xs font-medium text-muted-foreground transition-colors hover:bg-card hover:text-foreground"
+              >
+                Dashboard
+              </a>
+            </div>
+            <a
+              href="#predict"
+              className="rounded-full px-2.5 py-1.5 text-xs font-medium text-muted-foreground transition-colors hover:text-foreground sm:hidden"
+            >
               Predict
             </a>
-            <a href="#dashboard" className="text-sm text-muted-foreground hover:text-foreground">
-              Dashboard
+            <a
+              href="#dashboard"
+              className="rounded-full px-2.5 py-1.5 text-xs font-medium text-muted-foreground transition-colors hover:text-foreground sm:hidden"
+            >
+              Dash
             </a>
             <button
               type="button"
               onClick={toggleTheme}
-              className="p-2 rounded-lg border border-border hover:bg-accent transition-colors"
+              className="flex size-9 items-center justify-center rounded-full border border-border/80 bg-card text-foreground transition-colors hover:border-border hover:bg-accent"
               aria-label="Toggle theme"
             >
               {theme === "light" ? <Moon size={16} /> : <Sun size={16} />}
@@ -99,48 +135,70 @@ export default function Home() {
         </div>
       </nav>
 
-      <section className="relative flex flex-col items-center justify-center py-20 sm:py-28 overflow-hidden">
+      <section className="relative flex min-h-[calc(100dvh-3.5rem)] flex-col items-center justify-center overflow-hidden px-4 py-16 sm:px-6">
         <HeroBackdrop />
-        <div className="relative z-10 text-center px-6 max-w-2xl">
-          <a
-            href="#dashboard"
-            className="inline-flex items-center gap-1.5 rounded-full border border-border px-4 py-1.5 text-xs text-muted-foreground hover:text-foreground transition-colors mb-6"
-          >
-            Live artifacts · data/processed_v2
-          </a>
-          <h1 className="text-4xl sm:text-5xl font-bold tracking-tight text-foreground mb-4 leading-[1.1]">
-            Polyester enzyme
-            <br />
-            discovery dashboard
-          </h1>
-          <p className="text-base text-muted-foreground max-w-lg mx-auto leading-relaxed mb-8">
-            Visualizes the same outputs as <code className="text-xs">plasticdeg</code>: ESM-2
-            embeddings, homology splits, RF/LR heads, frozen-threshold probes, and PR/ROC
-            figures under <code className="text-xs">data/processed_v2</code>.
-          </p>
-          <div className="flex items-center justify-center gap-3 flex-wrap">
-            <a href="#predict" className="btn-secondary">
-              Test sequences
-            </a>
-            <a href="#dashboard" className="btn-primary">
-              View metrics <ArrowDown size={14} />
-            </a>
+        <div
+          className="pointer-events-none absolute -left-24 top-[18%] size-64 rounded-full bg-emerald-500/25 blur-[88px] dark:bg-emerald-500/12 sm:-left-28 sm:size-80"
+          aria-hidden
+        />
+        <div
+          className="pointer-events-none absolute -right-16 bottom-[14%] size-72 rounded-full bg-sky-500/22 blur-[96px] dark:bg-sky-500/12 sm:-right-24 sm:size-96"
+          aria-hidden
+        />
+        <div className="pointer-events-none absolute left-1/2 top-[8%] size-40 -translate-x-1/2 rounded-full bg-violet-500/15 blur-[72px] dark:bg-violet-500/10" aria-hidden />
+        <div className="hero-grid-overlay" aria-hidden />
+        <HeroParticles />
+
+        <div className="relative z-10 mx-auto w-full max-w-lg sm:max-w-2xl px-1 sm:px-2">
+          <div className="hero-landing-card px-6 py-9 sm:px-10 sm:py-11">
+            <div className="hero-landing-card__inner flex flex-col items-center text-center">
+              <div className="mb-5 flex flex-wrap items-center justify-center gap-2">
+                <span className="inline-flex items-center gap-1.5 rounded-full border border-border/80 bg-muted/50 px-3 py-1 text-[11px] font-medium uppercase tracking-wider text-muted-foreground backdrop-blur-sm dark:border-white/10 dark:bg-white/[0.05]">
+                  <Layers size={12} className="text-success" aria-hidden />
+                  ESM-2
+                </span>
+                <span className="inline-flex items-center gap-1.5 rounded-full border border-border/80 bg-muted/50 px-3 py-1 text-[11px] font-medium uppercase tracking-wider text-muted-foreground backdrop-blur-sm dark:border-white/10 dark:bg-white/[0.05]">
+                  <Cpu size={12} className="text-info" aria-hidden />
+                  RF / LR
+                </span>
+                <span className="inline-flex items-center gap-1.5 rounded-full border border-emerald-500/25 bg-emerald-500/[0.08] px-3 py-1 text-[11px] font-medium uppercase tracking-wider text-emerald-800 dark:border-emerald-400/20 dark:bg-emerald-500/10 dark:text-emerald-200/90">
+                  Homology splits
+                </span>
+              </div>
+
+              <div className="relative">
+                <div
+                  className="pointer-events-none absolute -inset-x-6 -top-3 h-px bg-gradient-to-r from-transparent via-white/30 to-transparent dark:via-white/15"
+                  aria-hidden
+                />
+                <h1 className="text-balance bg-gradient-to-br from-foreground via-foreground to-muted-foreground bg-clip-text text-3xl font-bold leading-[1.1] tracking-tight text-transparent sm:text-5xl sm:leading-[1.06] sm:tracking-tighter">
+                  Polyester enzyme discovery
+                </h1>
+                <p className="mt-2 text-lg font-medium text-muted-foreground sm:text-xl">
+                  Live screening console
+                </p>
+              </div>
+
+              <div className="mt-8 flex w-full max-w-md flex-col items-stretch gap-3 border-t border-border/50 pt-8 dark:border-white/[0.07] sm:flex-row sm:items-center sm:justify-center">
+                <a href="#predict" className="btn-secondary min-h-[44px] min-w-0 flex-1 justify-center sm:min-w-[9.5rem] sm:flex-initial">
+                  Test sequences
+                </a>
+                <a href="#dashboard" className="btn-primary min-h-[44px] min-w-0 flex-1 justify-center sm:min-w-[9.5rem] sm:flex-initial">
+                  View metrics <ArrowDown size={14} />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
       <SequencePredictPanel />
 
-      <section id="dashboard" className="border-t border-border scroll-mt-16">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12 space-y-10">
+      <section id="dashboard" className="scroll-mt-14 border-t border-border/60 bg-muted/20 dark:bg-muted/10">
+        <div className="mx-auto max-w-6xl space-y-12 px-4 py-14 sm:px-6">
           {error && (
-            <div className="p-4 rounded-lg bg-destructive/5 border border-destructive/20 text-sm text-destructive">
+            <div className="rounded-2xl border border-destructive/25 bg-destructive/5 p-5 text-sm text-destructive shadow-sm">
               {error}
-              <p className="mt-2 text-xs text-muted-foreground">
-                Run the dev server from <code className="text-[10px]">frontend/</code> so the API
-                resolves the repo root, or set <code className="text-[10px]">PIPELINE_ARTIFACTS_ROOT</code>{" "}
-                to your project directory.
-              </p>
             </div>
           )}
 
@@ -153,55 +211,38 @@ export default function Home() {
           {data && (
             <>
               <div>
-                <h2 className="section-title mb-2">Model metrics (v2)</h2>
-                <p className="text-xs text-muted-foreground max-w-3xl leading-relaxed mb-3">
-                  <span className="text-foreground font-medium">Quick glossary</span> — hover dotted terms
-                  elsewhere, or read here:{" "}
-                  <span title={METRIC_TIPS.esm} className="cursor-help border-b border-dotted border-muted-foreground/50">
-                    ESM-2
-                  </span>{" "}
-                  embeds the sequence;{" "}
-                  <span title={METRIC_TIPS.rf} className="cursor-help border-b border-dotted border-muted-foreground/50">
-                    RF
-                  </span>{" "}
-                  and{" "}
-                  <span title={METRIC_TIPS.lr} className="cursor-help border-b border-dotted border-muted-foreground/50">
-                    LR
-                  </span>{" "}
-                  are two classifiers on that vector;{" "}
-                  <span title={METRIC_TIPS.prAuc} className="cursor-help border-b border-dotted border-muted-foreground/50">
-                    PR-AUC
-                  </span>
-                  ,{" "}
-                  <span title={METRIC_TIPS.rocAuc} className="cursor-help border-b border-dotted border-muted-foreground/50">
-                    ROC-AUC
-                  </span>{" "}
-                  summarize test ranking (0–1);{" "}
-                  <span title={METRIC_TIPS.mcc} className="cursor-help border-b border-dotted border-muted-foreground/50">
-                    MCC
-                  </span>{" "}
-                  summarizes errors at the fixed cutoff (different scale than AUC).
-                </p>
-                <p className="text-xs text-muted-foreground mb-4 font-mono truncate" title={data.repoRoot}>
-                  Repo: {data.repoRoot}
-                </p>
-                <PipelineOverviewCards
-                  metricsV2={data.metrics_esm_baseline_v2}
-                  recallTarget={recallTarget}
-                />
+                <h2 className="section-title mb-6">Model metrics (v2)</h2>
+                <PipelineOverviewCards metricsV2={data.metrics_esm_baseline_v2} />
               </div>
 
               <ModelHeadComparisonChart metricsV2={data.metrics_esm_baseline_v2} />
 
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-                <ConfusionMatrixCard
-                  matrix={rfCm}
-                  title="RF confusion (test_combined, v2)"
-                />
-                <ConfusionMatrixCard
-                  matrix={evalRf?.random_forest?.confusion_matrix}
-                  title="RF confusion (evaluation_report.json)"
-                />
+              <div>
+                <h3 className="mb-4 text-sm font-semibold tracking-tight text-foreground">
+                  Confusion matrices
+                </h3>
+                <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
+                  <ConfusionMatrixCard
+                    matrix={lrCm}
+                    title="LR — metrics v2"
+                    spotlightColor="rgba(59, 130, 246, 0.12)"
+                  />
+                  <ConfusionMatrixCard
+                    matrix={rfCm}
+                    title="RF — metrics v2"
+                    spotlightColor="rgba(34, 197, 94, 0.12)"
+                  />
+                  <ConfusionMatrixCard
+                    matrix={evalModels?.logistic_regression?.confusion_matrix}
+                    title="LR — evaluation report"
+                    spotlightColor="rgba(59, 130, 246, 0.12)"
+                  />
+                  <ConfusionMatrixCard
+                    matrix={evalModels?.random_forest?.confusion_matrix}
+                    title="RF — evaluation report"
+                    spotlightColor="rgba(34, 197, 94, 0.12)"
+                  />
+                </div>
               </div>
 
               <ProbeStressSection
@@ -209,7 +250,7 @@ export default function Home() {
                 tiers={data.tier_probe_summary}
               />
 
-              <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
+              <div className="grid grid-cols-1 gap-6 lg:grid-cols-12">
                 <div className="lg:col-span-5">
                   <PipelineStageRail manifest={data.artifacts} />
                 </div>
@@ -245,14 +286,16 @@ export default function Home() {
                 </div>
               </div>
 
-              <CurveGallery charts={data.artifacts.charts} />
+              <CurveGallery figureBundle={data.artifacts.figure_bundle} />
             </>
           )}
         </div>
       </section>
 
-      <footer className="border-t border-border py-8 text-center text-xs text-muted-foreground">
-        PlasticDeg · Mini project — frontend reads pipeline artifacts only (no mediation API).
+      <footer className="border-t border-border/60 bg-muted/15 py-10 text-center">
+        <p className="mx-auto max-w-md text-[11px] leading-relaxed tracking-wide text-muted-foreground">
+          Bioplastic AI
+        </p>
       </footer>
     </main>
   );

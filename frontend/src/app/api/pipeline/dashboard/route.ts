@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import {
   artifactPath,
   fileExists,
+  figureBundleAbsolutePath,
   getRepoRoot,
   lineCount,
   readJsonFile,
@@ -65,6 +66,13 @@ export async function GET() {
     roc_v2: artifactPath("reports", "roc_curve_rf_esm_baseline_v2.png"),
   };
 
+  const figureBundle = {
+    roc_test: figureBundleAbsolutePath("roc_test"),
+    pr_test: figureBundleAbsolutePath("pr_test"),
+    confusion_lr: figureBundleAbsolutePath("confusion_lr"),
+    confusion_rf: figureBundleAbsolutePath("confusion_rf"),
+  };
+
   return NextResponse.json({
     repoRoot: getRepoRoot(),
     artifacts: {
@@ -125,6 +133,18 @@ export async function GET() {
         pr_v2: { path: charts.pr_v2, exists: exists(charts.pr_v2) },
         roc_v1: { path: charts.roc_v1, exists: exists(charts.roc_v1) },
         roc_v2: { path: charts.roc_v2, exists: exists(charts.roc_v2) },
+      },
+      figure_bundle: {
+        roc_test: { path: figureBundle.roc_test, exists: exists(figureBundle.roc_test) },
+        pr_test: { path: figureBundle.pr_test, exists: exists(figureBundle.pr_test) },
+        confusion_lr: {
+          path: figureBundle.confusion_lr,
+          exists: exists(figureBundle.confusion_lr),
+        },
+        confusion_rf: {
+          path: figureBundle.confusion_rf,
+          exists: exists(figureBundle.confusion_rf),
+        },
       },
     },
     metrics_esm_baseline_v2: metricsV2,

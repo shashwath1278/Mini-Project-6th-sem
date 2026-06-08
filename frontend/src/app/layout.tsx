@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "PlasticDeg — PAZy pipeline dashboard",
+  title: "Bioplastic AI — polyester enzyme screening",
   description:
-    "Dashboard for ESM-2 + RF/LR plastic-degrading enzyme classification: metrics, probes, and curves from data/processed_v2",
+    "Screening dashboard for bioplastic-degrading enzymes: ESM-2 embeddings, homology splits, RF/LR heads, probes, and metrics from your pipeline artifacts.",
 };
 
 // Inline script to prevent FOUC — runs before React hydration
@@ -37,7 +37,7 @@ export default function RootLayout({
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
       </head>
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-full flex flex-col font-sans antialiased">
         <ThemeProvider>
           <SmoothScroll>{children}</SmoothScroll>
         </ThemeProvider>

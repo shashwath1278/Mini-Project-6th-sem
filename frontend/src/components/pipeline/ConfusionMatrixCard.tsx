@@ -6,14 +6,20 @@ import { METRIC_TIPS } from "@/lib/metricLabels";
 interface Props {
   matrix: number[][] | undefined;
   title: string;
+  /** Optional tint for LR (info) vs RF (success) storytelling */
+  spotlightColor?: string;
 }
 
 /** Expects sklearn-style [[TN, FP], [FN, TP]] */
-export default function ConfusionMatrixCard({ matrix, title }: Props) {
+export default function ConfusionMatrixCard({
+  matrix,
+  title,
+  spotlightColor = "rgba(168, 85, 247, 0.1)",
+}: Props) {
   if (!matrix || matrix.length !== 2 || matrix[0]?.length !== 2) {
     return (
       <SpotlightCard className="p-6 text-sm text-muted-foreground">
-        No confusion matrix in metrics JSON for {title}.
+        No confusion matrix for this view.
       </SpotlightCard>
     );
   }
@@ -27,13 +33,8 @@ export default function ConfusionMatrixCard({ matrix, title }: Props) {
   const max = Math.max(tn, fp, fn, tp, 1);
 
   return (
-    <SpotlightCard spotlightColor="rgba(168, 85, 247, 0.1)" className="p-4">
+    <SpotlightCard spotlightColor={spotlightColor} className="p-4">
       <h3 className="section-title mb-3">{title}</h3>
-      <p className="text-xs text-muted-foreground mb-3 leading-relaxed">
-        Rows: <span title="Label from training data (0 = not in positive set, 1 = polyester-class positive)">true class</span>{" "}
-        (negative, positive). Columns: <span title="Model prediction at frozen cutoff">predicted class</span>{" "}
-        (negative, positive). Cell codes: TN / FP / FN / TP — hover each cell label for full words.
-      </p>
       <div className="grid grid-cols-2 gap-2 max-w-[220px]">
         {cells.map((c) => (
           <div

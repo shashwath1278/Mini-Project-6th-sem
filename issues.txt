@@ -1,0 +1,19 @@
+PlasticDeg - Report fixes
+
+01. Abstract: Make it small(3/4th of page max)
+    Include results(numerical values).
+02. For all images and table add numbers. 
+    Eg: Figure 3.2(below the image) | Table 4.5(top of the table)
+03. Quote figures while explaining
+04. Each chapter shall start from a new page
+05. Literature survey: do referencing
+06. Site references in the report
+07. Landscape format for Literature Survey
+08. Explain each chapter briefly at the end of chapter 1
+09. Section 6.3: Format "Process 1.0" this wording properly
+10. Do referncing to datasets
+11. Include a diagram in Module Implementation
+12. Section 6.7: Add psuedo codes
+13. Section 7.2: Mention equation number
+14. Section 7.3: Explain the results - highlight the better model
+15. References: Add at least 20 papers(latest '24 '25)

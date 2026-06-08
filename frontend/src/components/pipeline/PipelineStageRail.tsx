@@ -11,9 +11,10 @@ interface Step {
 }
 
 function buildSteps(a: PipelineArtifactsManifest): Step[] {
-  const curvesOk =
-    a.charts.pr_v2.exists &&
-    a.charts.roc_v2.exists;
+  const bundleCurves =
+    a.figure_bundle.roc_test.exists && a.figure_bundle.pr_test.exists;
+  const legacyCurves = a.charts.pr_v2.exists && a.charts.roc_v2.exists;
+  const curvesOk = bundleCurves || legacyCurves;
   return [
     {
       id: "tables",
@@ -54,7 +55,7 @@ function buildSteps(a: PipelineArtifactsManifest): Step[] {
     {
       id: "curves",
       label: "PR / ROC figures",
-      description: "reports/pr_curve_rf_esm_baseline_v2.png (+ ROC)",
+      description: "reports/figure_bundle or legacy reports/*.png",
       done: curvesOk,
     },
   ];

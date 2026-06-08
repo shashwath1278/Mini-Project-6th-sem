@@ -41,22 +41,16 @@ export default function ModelHeadComparisonChart({ metricsV2 }: Props) {
   if (data.length === 0) {
     return (
       <SpotlightCard className="p-6 text-sm text-muted-foreground">
-        No <code className="text-xs">metrics_esm_baseline_v2.json</code> loaded — run{" "}
-        <code className="text-xs">plasticdeg.train.train_esm_baseline_v2</code> first.
+        No v2 metrics loaded.
       </SpotlightCard>
     );
   }
 
   return (
     <SpotlightCard spotlightColor="rgba(59, 130, 246, 0.12)" className="p-4">
-      <h3 className="section-title mb-2">
+      <h3 className="section-title mb-3">
         <MetricHint title={METRIC_TIPS.testCombined}>Head comparison (test_combined)</MetricHint>
       </h3>
-      <p className="text-xs text-muted-foreground mb-3 leading-relaxed">
-        <strong className="text-foreground font-medium">PR-AUC</strong> — precision–recall curve area (ranking
-        positives). <strong className="text-foreground font-medium">ROC-AUC</strong> — overall separation of
-        classes. Both are 0–1. <MetricHint title={METRIC_TIPS.mcc}>MCC</MetricHint> below uses a different scale.
-      </p>
       <div className="h-[260px] w-full min-w-0 shrink-0">
         <ResponsiveContainer width="100%" height={260} minWidth={0}>
           <BarChart data={data} margin={{ top: 8, right: 8, left: -8, bottom: 0 }}>

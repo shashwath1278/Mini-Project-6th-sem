@@ -14,6 +14,8 @@ export const METRIC_TIPS = {
   lrPlus: "LR call: “positive” if LR score ≥ τ_LR, else “negative”.",
   trainThrRf:
     "Cutoff probability chosen on the training set to meet a minimum recall on training positives, then frozen (not tuned on test).",
+  trainThrLr:
+    "Same idea for logistic regression: training-derived cutoff (τ_LR) for minimum positive recall, then frozen for test.",
   prAuc:
     "PR-AUC: area under the precision–recall curve (0–1). Summarizes ranking quality for the positive class on held-out test data.",
   rocAuc:

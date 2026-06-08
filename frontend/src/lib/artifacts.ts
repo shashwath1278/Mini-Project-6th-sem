@@ -59,3 +59,17 @@ export type ChartKind = keyof typeof CHART_FILES;
 export function chartAbsolutePath(kind: ChartKind): string {
   return artifactPath("reports", CHART_FILES[kind]);
 }
+
+/** Curated PNGs under `data/processed_v2/reports/figure_bundle/`. */
+export const FIGURE_BUNDLE_FILES = {
+  roc_test: "fig_roc_test.png",
+  pr_test: "fig_pr_test.png",
+  confusion_lr: "fig_confusion_matrix_lr.png",
+  confusion_rf: "fig_confusion_matrix_rf.png",
+} as const;
+
+export type FigureBundleKind = keyof typeof FIGURE_BUNDLE_FILES;
+
+export function figureBundleAbsolutePath(kind: FigureBundleKind): string {
+  return artifactPath("reports", "figure_bundle", FIGURE_BUNDLE_FILES[kind]);
+}
